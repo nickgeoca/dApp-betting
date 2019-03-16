@@ -85,7 +85,7 @@ class App extends Component {
       <div className="App">
         <h1>Toy Gambling dApp - Place Your Wager!</h1>
         <h4>Is oil going to be above ${this.state.strikePrice} by the end of the presentation? </h4>
-        <h5><a href="https://www.theice.com/products/219/Brent-Crude-Futures/data?marketId=222470">See current price here</a></h5>
+        <h5><a href="https://www.fxempire.com/markets/crude-oil/overview">See current price here</a></h5>
         <hr/>
         <button onClick={this.betAbove}>
         Bet Final Price is Higher
